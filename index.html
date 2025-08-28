@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="bann.png" width="1350" height="100">
+	<title>Modul Produk Kreatif & Kewirausahaan SMK Kelas XI</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background-color: #1abc9c;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-left: 5px solid #1abc9c;
+            background-color: #fdfdfd;
+            border-radius: 5px;
+        }
+        section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        section h3 {
+            color: #34495e;
+        }
+        .module-content ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        .module-content ol {
+            list-style: decimal;
+            margin-left: 20px;
+        }
+        .module-content p {
+            line-height: 1.6;
+        }
+        .interactive-box {
+            background-color: #e8f8f5;
+            border: 1px solid #1abc9c;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .interactive-box h4 {
+            color: #16a085;
+            margin-top: 0;
+        }
+        .task-button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        .task-button:hover {
+            background-color: #2980b9;
+        }
+        .quiz-container {
+            background-color: #f0f8ff;
+            border: 1px solid #3498db;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .quiz-question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .quiz-options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .quiz-feedback {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .correct { color: green; }
+        .incorrect { color: red; }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modul Produk Kreatif & Kewirausahaan</h1>
+        <p>SMK Kelas XI | Semester Ganjil | SMK NEGERI 4 JAKARTA</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#pengantar" class="active">Pengantar</a></li>
+            <li><a href="#modul-mengajar">Modul Mengajar</a></li>
+            <li><a href="#modul-praktikum">Modul Praktikum</a></li>
+            <li><a href="#evaluasi">Evaluasi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="pengantar">
+            <h2>Kata Pengantar</h2>
+            <div class="module-content">
+                <p>Puji syukur kami panjatkan kehadirat Tuhan YME sehingga buku Produk Kreatif dan Kewirausahaan dapat kami susun sebagai penunjang pembelajaran pada Sekolah Menengah Kejuruan. Buku ini disusun berdasarkan kurikulum 2013 Edisi Revisi 2017 dengan tujuan memperkuat kompetensi siswa baik afektif, knowledge dan skill secara menyeluruh. Buku ini berisi materi pembelajaran yang membekali siswa tentang sikap mental yang baik melalui penugasan, juga berisi materi yang mampu meningkatkan pengetahuan dan ketrampilan siswa.</p>
+                <p>Modul ini menjabarkan usaha minimal yang harus dilakukan siswa untuk mencapai kompetensi yang diharapkan. Sesuai dengan pendekatan yang dipergunakan dalam Kurikulum 2013, siswa diberanikan untuk mencari dari sumber belajar lain yang tersedia dan terbentang luas di sekitarnya. Peran guru sangat penting untuk meningkatkan dan menyesuaikan daya serap siswa dengan ketersediaan kegiatan pada buku ini. Guru dapat memperkayanya dengan kreasi dalam bentuk kegiatan-kegiatan lain yang sesuai dan relevan yang bersumber dari lingkungan sosial dan alam. Implementasi terbatas pada tahun pelajaran 2018-2019 telah mendapat tanggapan yang sangat positif dan masukan yang sangat berharga. Pengalaman tersebut dipergunakan semaksimal mungkin dalam menyiapkan buku untuk implementasi menyeluruh pada tahun pelajaran 2019-2020 dan seterusnya.</p>
+                <p>Modul ini merupakan edisi pertama dan sangat terbuka dan terus dilakukan perbaikan dan penyempurnaan dimasa mendatang. Untuk itu, kami mengundang para pembaca memberikan kritik, saran dan masukan untuk perbaikan dan penyempurnaan pada edisi berikutnya.</p>
+                <p>Atas kontribusi tersebut, kami ucapkan terima kasih. Mudah-mudahan kita dapat memberikan yang terbaik bagi kemajuan dunia pendidikan.</p>
+                <p>Jakarta, Juni 2025</p>
+            </div>
+        </section>
+
+        <section id="modul-mengajar">
+            <h2>Modul Mengajar</h2>
+            
+            <!-- BAB 1: Sikap dan Perilaku Wirausaha -->
+            <div class="module-content">
+                <h3>BAB 1: Sikap dan Perilaku Wirausaha</h3>
+                <h4>Tujuan Pembelajaran:</h4>
+                <ul>
+                    <li>Memahami tentang wirausaha dan kewirausahaan.</li>
+                    <li>Memahami sikap dan perilaku wirausaha.</li>
+                    <li>Menjelaskan sikap dan perilaku wirausahawan.</li>
+                    <li>Mempresentasikan sikap dan perilaku wirausahawan.</li>
+                </ul>
+
+                <h4>A. Pendahuluan</h4>
+                <p>Sudah saatnya generasi muda memiliki pola pikir dan cita-cita menjadi seorang wirausaha. Impian menjadi karyawan atau pegawai setelah lulus sekolah jangan sampai dijadikan tujuan satu-satunya. Banyaknya pengangguran di negeri ini utamanya didominasi oleh lulusan sekolah menengah kejuruan atau SMK. Kenyataan tersebut hendaknya bisa menyadarkan para generasi muda. Para lulusan setiap tahun bertambah, sementara ketersediaan lapangan pekerjaan tidak sebanding dengan banyaknya pencari kerja.</p>
+                <p>Kesadaran itu harus dibangun dan dimiliki oleh para generasi muda saat ini. Dengan menjadi seorang wirausaha akan memberikan banyak manfaat bagi kemajuan negeri ini. Peran wirausaha penting dalam menciptakan lapangan pekerjaan bagi dirinya dan orang lain di lingkungan sekitar. Demikian juga, ia akan ikut serta membantu pemerintah dalam mengentaskan kemiskinan dan meningkatkan kemakmuran di negara kita. Bangsa ini membutuhkan generasi-generasi yang terampil, kreatif dan inovatif.</p>
+
+                <h4>B. Pengertian Wirausaha</h4>
+                <p>Istilah <em>entrepreneur</em> pertama kali diperkenalkan pada awal abad ke-18 oleh seorang ekonom Perancis yang bernama Richard Cantilon. Entrepreneur adalah <em>agent who buys means of production at certain prices in order to combine them</em>.</p>
+                <p>Etimologi kata wirausaha berasal dari kata “wira” dan “usaha”. “Wira” berarti pejuang, pahlawan, manusia unggul, teladan, berbudi luhur, gagah berani dan berwatak agung. Kata “wira” juga digunakan dalam kata “perwira”. Sedangkan “usaha” berarti “perbuatan untuk mencapai sebuah tujuan”. Jadi, secara etimologis/harfiah, wirausaha adalah pejuang atau pahlawan yang melakukan perbuatan untuk mencapai sebuah tujuan.</p>
+                <p>Seorang wirausaha adalah orang yang mampu menciptakan dan merancang suatu gagasan menjadi realita.</p>
+                <h5>Pengertian dan Definisi Wirausaha menurut beberapa ahli:</h5>
+                <ol>
+                    <li><strong>Syamsudin Suryana:</strong> Wirausaha adalah seseorang yang memiliki karakteristik percaya diri, berorientasi pada tugas dan hasil, pengambil resiko yang wajar, kepemimpinan yang lugas, kreatif menghasilkan inovasi, serta berorientasi pada masa depan.</li>
+                    <li><strong>Prawirokusumo:</strong> Wirausaha adalah mereka yang melakukan upaya-upaya kreatif dan inovatif dengan jalan mengembangkan ide dan meramu sumber daya untuk menemukan peluang dan perbaikan hidup.</li>
+                    <li><strong>Joseph Schumpeter:</strong> Wirausaha adalah seorang inovator yang melakukan berbagai perubahan di dalam pasar lewat penggabungan beberapa hal atau sesuatu yang baru. Adapun sesuatu yang baru tersebut bisa dalam bentuk:
+                        <ul>
+                            <li>Ada produk baru yang dikenalkan</li>
+                            <li>Ada metode produksi baru</li>
+                            <li>Dibukanya pasar yang baru</li>
+                            <li>Diperolehnya sumber pasokan baru dari komponen yang baru</li>
+                            <li>Dijalankannya suatu organisasi baru pada sebuah perusahaan</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h4>C. Karakter Wirausaha</h4>
+                <p>Wirausahawan adalah orang yang menjalankan usaha atau perusahaan dengan kemungkinan menanggung resiko seperti kerugian. Oleh sebab itu seorang wirausaha harus memiliki kesiapan mental, baik pada saat menghadapi keadaan yang merugikan maupun saat ia mendapatkan untung besar.</p>
+                <h5>Karakter wirausaha yang harus dimiliki:</h5>
+                <ol>
+                    <li><strong>Kreatif:</strong> Kemampuan seseorang untuk menggunakan sumber daya yang dimiliki untuk menghasilkan pola pikir dan tindakan yang berbeda.</li>
+                    <li><strong>Inovatif:</strong> Proses menghasilkan sesuatu gagasan atau penemuan baru yang dapat diterima atau dijual ke masyarakat.</li>
+                    <li><strong>Berani:</strong> Memiliki sifat berani dalam mengambil keputusan dan resiko dengan perhitungan cermat.</li>
+                    <li><strong>Kepemimpinan:</strong> Mampu mengelola dan mengatur bisnisnya dalam mencapai tujuan.</li>
+                    <li><strong>Mampu berkomunikasi:</strong> Mampu menyampaikan gagasan dan pesan baik secara internal maupun eksternal.</li>
+                    <li><strong>Kerjasama:</strong> Kemampuan menjalin hubungan baik dengan berbagai pihak.</li>
+                    <li><strong>Mandiri:</strong> Pribadi yang tidak menggantungkan masa depannya pada orang lain.</li>
+                    <li><strong>Percaya diri:</strong> Penting untuk mantap dalam melangkah dan mewujudkan impian.</li>
+                    <li><strong>Jujur:</strong> Akar dari semua karakter, membangun kepercayaan.</li>
+                    <li><strong>Pantang menyerah:</strong> Penting saat menghadapi resiko kegagalan, bangkit lagi setelah gagal.</li>
+                </ol>
+                <h5>Karakter wirausaha menurut Bygrave (10 D):</h5>
+                <ol>
+                    <li><strong>Dream:</strong> Memiliki keinginan untuk mewujudkan impian di masa depan.</li>
+                    <li><strong>Decisiveness:</strong> Mampu membuat keputusan secara cepat dan tepat.</li>
+                    <li><strong>Doers:</strong> Melakukan tindak lanjut terhadap keputusan yang diambil.</li>
+                    <li><strong>Determination:</strong> Melaksanakan kegiatan dengan penuh perhatian, tanggung jawab dan pantang menyerah.</li>
+                    <li><strong>Dedication:</strong> Memiliki dedikasi yang tinggi dan rela berkorban.</li>
+                    <li><strong>Devotion:</strong> Tidak mengenal lelah, fokus dalam memperhatikan bisnisnya.</li>
+                    <li><strong>Details:</strong> Mampu menganalisa secara rinci sampai ke hal-hal kecil.</li>
+                    <li><strong>Destiny:</strong> Mampu merumuskan tujuan yang hendak dicapai.</li>
+                    <li><strong>Dollars:</strong> Uang bukan semata-mata tujuan yang hendak dicapai.</li>
+                    <li><strong>Distribute:</strong> Mampu mendistribusikan atau membagi tugas, wewenang dan kepemilikan kepada orang lain.</li>
+                </ol>
+
+                <h4>D. Kreativitas</h4>
+                <p>Kreativitas merupakan salah satu kunci utama keberhasilan seorang entrepreneur. Kita bisa saja memulai bisnis tanpa uang, tanpa jaringan, ataupun tanpa kantor, selama memiliki kreativitas yang baik. Sebaliknya, jika kreativitas itu sulit untuk singgah di kepala kita, walaupun kita memiliki banyak modal uang, jaringan, dan lain sebagainya belum tentu hal tersebut bisa kita gunakan dengan maksimal dan mungkin malah habis tanpa sisa.</p>
+                <h5>Cara menjadi seorang entrepreneur yang kreatif:</h5>
+                <ol>
+                    <li><strong>Mindset Continuous Improvement:</strong> Menganggap bahwa setiap produk, jasa, layanan, metode, atau apapun itu bisa ditingkatkan lagi kualitasnya.</li>
+                    <li><strong>Diskusi dan Interaksi:</strong> Mendapatkan banyak ide dan masukan.</li>
+                    <li><strong>Brainstorming Session:</strong> Mengadu ide antar anggota tim untuk menemukan ide kreatif.</li>
+                    <li><strong>Travelling dan Bertemu Orang Baru:</strong> Menyempatkan diri untuk traveling, bertemu dengan orang baru, atau pergi ke tempat-tempat baru.</li>
+                    <li><strong>Idea Bank:</strong> Wadah untuk mengumpulkan berbagai macam ide atau pikiran yang tidak sengaja terlewat.</li>
+                    <li><strong>Tidak Menyerah Menjadi Orang Kreatif:</strong> Tangguh dan bersinergi untuk mewujudkan ide-ide cemerlang.</li>
+                </ol>
+
+                <h4>E. Manfaat Wirausaha</h4>
+                <p>Salah satu usaha yang paling menjanjikan di masa sekarang ini adalah menjadi seorang wirausaha. Wirausaha adalah orang yang pandai atau berbakat untuk mengenali produk baru, menentukan cara dan proses produksi baru, menyusun operasi pengadaan produk yang baru, memasarkannya, serta mengatur modal operasinya.</p>
+                <h5>Manfaat menjadi seorang wirausaha:</h5>
+                <ol>
+                    <li>Bisa menciptakan lapangan pekerjaan baru dan membantu orang lain.</li>
+                    <li>Memiliki kebebasan mencapai tujuan usahanya.</li>
+                    <li>Tidak terikat waktu.</li>
+                    <li>Memiliki kesempatan menunjukan kemampuan dan potensi diri.</li>
+                    <li>Memperoleh manfaat dan laba yang maksimal.</li>
+                </ol>
+
+                <h4>F. Fungsi dan Peran Wirausaha dalam Perekonomian Nasional</h4>
+                <p>Wirausahawan adalah orang yang mempunyai jiwa mandiri, motivasi tinggi, serta berkemauan dan berkemampuan untuk mengubah tantangan menjadi peluang. Dengan demikian, wirausahawan mempunyai peran yang besar dalam kemajuan perekonomian.</p>
+                <h5>Peran wirausahawan dalam perekonomian:</h5>
+                <ol>
+                    <li>Membuka Lapangan Kerja.</li>
+                    <li>Meningkatkan pendapatan nasional.</li>
+                    <li>Mengurangi kesenjangan ekonomi dan sosial.</li>
+                    <li>Mendorong terciptanya masyarakat adil dan makmur.</li>
+                    <li>Penghasilan berupa devisa.</li>
+                    <li>Pengadaan Penanaman Modal (Investasi) Dalam Negeri.</li>
+                    <li>Penghasilan Berupa Pajak.</li>
+                </ol>
+
+                <h4>G. Perilaku Kerja Prestatif</h4>
+                <p>Perilaku kerja prestatif adalah perilaku yang selalu ingin maju dan antusias. Siswa yang prestatif juga bersemangat dalam belajar, tidak mudah mengeluh dan tidak cepat puas.</p>
+                <h5>Karakteristik wirausaha yang berhasil karena bekerja secara prestatif (menurut Zimmerer):</h5>
+                <ol>
+                    <li>Memiliki kemampuan memimpin.</li>
+                    <li>Komitmen tinggi terhadap pekerjaannya.</li>
+                    <li>Bertanggung jawab.</li>
+                    <li>Motivasi untuk lebih unggul.</li>
+                    <li>Kreatif dan fleksibel.</li>
+                    <li>Mempertahankan minat kewirausahaan dalam dirinya.</li>
+                    <li>Yakin pada diri sendiri.</li>
+                    <li>Berorientasi pada masa depan.</li>
+                    <li>Mau belajar dari kegagalan.</li>
+                    <li>Peluang untuk mencapai obsesi.</li>
+                    <li>Toleransi untuk mencapai risiko ketidakpastian.</li>
+                </ol>
+                <h5>Sikap dan Perilaku Kerja Prestatif menurut Stephen Covey (4 sisi potensial):</h5>
+                <ol>
+                    <li><strong>Self awareness:</strong> Sikap mawas diri.</li>
+                    <li><strong>Conscience:</strong> Mempertajam suara hati.</li>
+                    <li><strong>Independent will:</strong> Pandangan independen untuk bertindak.</li>
+                    <li><strong>Creative Imagination:</strong> Berpikir mengarah kedepan untuk memecahkan masalah dengan imajinasi serta adaptasi yang tepat.</li>
+                </ol>
+
+                <h4>H. Aspek-aspek Kerja Prestatif</h4>
+                <ol>
+                    <li><strong>Kerja Ikhlas:</strong> Bekerja dengan baik, bersungguh-sungguh, dilandasi hati tulus.</li>
+                    <li><strong>Kerja Mawas Diri:</strong> Tidak tergesa-gesa, tidak mudah terpancing kritikan/pujian.</li>
+                    <li><strong>Kerja Cerdas:</strong> Bekerja dengan pikiran tajam, cepat, tepat dalam menerima, menanggapi, menentukan sikap dan berbuat.</li>
+                    <li><strong>Kerja Keras:</strong> Bekerja dengan menggunakan sumber daya secara optimal.</li>
+                    <li><strong>Kerja Tuntas:</strong> Kerja yang tidak setengah-setengah dan mampu mengorganisasikan bagian usaha secara terpadu dari awal sampai akhir.</li>
+                </ol>
+            </div>
+
+            <!-- BAB 2: Peluang Usaha -->
+            <div class="module-content">
+                <h3>BAB 2: Peluang Usaha</h3>
+                <h4>Tujuan Pembelajaran:</h4>
+                <ul>
+                    <li>Memahami peluang usaha produk barang/jasa.</li>
+                    <li>Menentukan faktor-faktor keberhasilan dan kegagalan usaha.</li>
+                    <li>Menganalisis kemungkinan keberhasilan dan kegagalan usaha.</li>
+                    <li>Menyajikan bentuk-bentuk peluang usaha.</li>
+                    <li>Mencipta peluang usaha yang sesuai dengan kondisi lingkungan masing-masing secara kreatif dan inovatif.</li>
+                </ul>
+
+                <h4>A. Peluang Usaha</h4>
+                <p>Peluang usaha terdiri dari dua kata, Peluang dan usaha. Peluang berarti kesempatan, dan usaha berarti upaya untuk mencapai tujuan yang diinginkan dengan berbagai daya atau sumber daya yang dimiliki. Secara sederhana peluang usaha merupakan suatu kesempatan yang dimiliki oleh seseorang untuk mencapai tujuan yang hendak dicapai dengan menggunakan sumber daya yang dimiliki.</p>
+                <h5>Ciri-ciri peluang usaha yang baik:</h5>
+                <ol>
+                    <li>Bersifat orisinil.</li>
+                    <li>Harus dapat mengantisipasi perubahan persaingan dan kebutuhan pasar.</li>
+                    <li>Sesuai dengan minat.</li>
+                    <li>Tingkat kelayakan usaha teruji.</li>
+                    <li>Bersifat ide kreatif.</li>
+                    <li>Ada keyakinan untuk mewujudkan.</li>
+                    <li>Ada rasa senang saat menjalankan.</li>
+                </ol>
+                <h5>Ciri-ciri peluang usaha yang Potensial:</h5>
+                <ol>
+                    <li>Memiliki nilai jual.</li>
+                    <li>Usaha bukan hanya ambisi pribadi semata, dan bersifat nyata.</li>
+                    <li>Usaha tersebut mampu bertahan lama di pasar.</li>
+                    <li>Tidak menghabiskan modal, karena terlalu besar investasinya.</li>
+                    <li>Bisa ditingkatkan skalanya menjadi industri.</li>
+                </ol>
+                <h5>Peluang usaha yang bernilai jual memiliki ciri-ciri:</h5>
+                <ol>
+                    <li>Mampu memenuhi kebutuhan konsumen.</li>
+                    <li>Memiliki keunggulan bersaing.</li>
+                    <li>Tidak bersifat sementara.</li>
+                    <li>Ada nilai uang.</li>
+                    <li>Memenuhi aspek kreatif dan inovatif.</li>
+                </ol>
+
+                <h4>B. Analisis Peluang Usaha</h4>
+                <p>Analisis peluang usaha adalah suatu analisis untuk mengetahui berbagai kemungkinan dari berbagai macam kesempatan usaha, mana yang bisa dilakukan dan bisa memberikan keuntungan dengan berbagai tingkat resiko yang akan di hadapi.</p>
+                <h5>Untuk dapat menggali dan memanfaatkan peluang usaha, seorang wirausaha harus dapat berfikir secara positif dan kreatif, diantaranya yaitu:</h5>
+                <ol>
+                    <li>Percaya dan yakin bahwa usaha tersebut dapat dilaksanakan.</li>
+                    <li>Mau menerima gagasan atau ide-ide baru.</li>
+                    <li>Memiliki semangat kerja yang tinggi.</li>
+                    <li>Mampu berkomunikasi dengan baik.</li>
+                    <li>Bertanya pada diri sendiri.</li>
+                    <li>Mau mendengarkan saran orang lain.</li>
+                </ol>
+
+                <h4>C. Persiapan Peluang Usaha</h4>
+                <h5>Untuk melakukan analisis peluang usaha dibutuhkan persiapan:</h5>
+                <ol>
+                    <li>Meneliti luas usaha yang dipilih.</li>
+                    <li>Bentuk usaha.</li>
+                    <li>Jenis usaha yang ditekuni.</li>
+                    <li>Mengenal informasi usaha yang diterima.</li>
+                    <li>Memiliki peta peluang usaha yang menguntungkan.</li>
+                </ol>
+                <h5>Langkah-langkah analisis peluang usaha:</h5>
+                <ol>
+                    <li>Membuat sketsa bidang usaha yang ditekuni.</li>
+                    <li>Penyediaan modal.</li>
+                    <li>Mengurus izin usaha.</li>
+                    <li>Menyiapkan tenaga kerja.</li>
+                    <li>Menyiapkan sarana.</li>
+                    <li>Menyiapkan bahan baku.</li>
+                    <li>Menetapkan lokasi.</li>
+                    <li>Menetapkan metodologi.</li>
+                    <li>Menetapkan teknologi usaha.</li>
+                    <li>Menetapkan Manajemen.</li>
+                    <li>Mencari Mitra Usaha.</li>
+                </ol>
+
+                <h4>D. Tujuan Analisis Peluang Usaha</h4>
+                <ul>
+                    <li>Untuk menemukan peluang usaha.</li>
+                    <li>Untuk menemukan potensi usaha.</li>
+                    <li>Untuk mengetahui besarnya potensi usaha yang tersedia.</li>
+                    <li>Untuk mengetahui berapa lama usaha bertahan.</li>
+                </ul>
+
+                <h4>E. Keberhasilan dan Kegagalan Wirausaha</h4>
+                <h5>Faktor-faktor penyebab keberhasilan wirausaha:</h5>
+                <ol>
+                    <li><strong>Faktor manusia:</strong> Kepribadian, Ilmu Pengetahuan, Pengalaman.</li>
+                    <li><strong>Keuangan:</strong> Modal untuk membiayai pengeluaran.</li>
+                    <li><strong>Perencanaan:</strong> Perencanaan yang matang agar usaha terarah.</li>
+                    <li><strong>Pemasaran:</strong> Kemampuan memasarkan produk agar menjangkau konsumen.</li>
+                </ol>
+                <h5>Falsafah "DORAEMON" (Adyaksa Dault) untuk keberhasilan usaha:</h5>
+                <ul>
+                    <li><strong>Dream:</strong> Memiliki impian.</li>
+                    <li><strong>Opportunity:</strong> Mampu mencari peluang usaha.</li>
+                    <li><strong>Reform:</strong> Menyusun perencanaan dan mengimplementasikan secara sistematis.</li>
+                    <li><strong>Action:</strong> Melakukan suatu tindakan.</li>
+                    <li><strong>Energy:</strong> Memiliki semangat yang tinggi.</li>
+                    <li><strong>Mapping:</strong> Bisa melakukan pemetaan usaha dengan analisis SWOT.</li>
+                    <li><strong>Organizing:</strong> Bergabung dengan organisasi atau perkumpulan.</li>
+                    <li><strong>Network:</strong> Memiliki jaringan atau relasi yang luas.</li>
+                </ul>
+                <h5>Faktor-faktor penyebab kegagalan wirausaha (menurut Zimmerer):</h5>
+                <ul>
+                    <li>Tidak kompeten dalam manajerial.</li>
+                    <li>Kurang berpengalaman.</li>
+                    <li>Tidak bisa mengelola keuangan.</li>
+                    <li>Lokasi yang kurang mendukung.</li>
+                    <li>Gagal dalam perencanaan.</li>
+                    <li>Sikap yang kurang bersungguh-sungguh.</li>
+                    <li>Ketidakmampuan dalam melakukan peralihan atau transisi kewirausahaan.</li>
+                    <li>Kurang pengawasan peralatan.</li>
+                </ul>
+
+                <h4>F. Memanfaatkan Peluang Secara Kreatif Dan Inovatif</h4>
+                <p>Kreatifitas merupakan kemampuan untuk menciptakan sesuatu. Sedangkan orang yang kreatif adalah mereka yang memiliki daya cipta.</p>
+                <h5>Kreativitas dapat diidentifikasikan:</h5>
+                <ul>
+                    <li><strong>Menciptakan (to create):</strong> Proses mencari atau menciptakan dari yang tidak ada menjadi ada.</li>
+                    <li><strong>Memodifikasikan (to modify):</strong> Mencari cara membentuk fungsi-fungsi baru atau menjadikan sesuatu menjadi berbeda penggunaannya.</li>
+                    <li><strong>Mengkombinasikan (to combine):</strong> Mengkombinasikan dua hal atau lebih yang sebelumnya tidak saling berhubungan.</li>
+                </ul>
+                <h5>Cara memanfaatkan peluang usaha secara kreatif dan inovatif:</h5>
+                <ol>
+                    <li>Memanfaatkan barang yang tidak terpakai.</li>
+                    <li>Memanfaatkan barang yang disediakan oleh alam.</li>
+                    <li>Memanfaatkan kejadian atau peristiwa yang ada.</li>
+                    <li>Memanfaatkan segala sesuatu yang bisa memberikan peluang usaha.</li>
+                </ol>
+
+                <h4>G. Jenis-Jenis Inovasi</h4>
+                <p>Pengertian inovasi menurut Stephen Robbins adalah sebuah ide atau gagasan baru yang diterapkan untuk memperbaiki suatu produk.</p>
+                <h5>Ciri-ciri inovasi:</h5>
+                <ol>
+                    <li>Memiliki kekhasan atau khusus.</li>
+                    <li>Memiliki ciri atau unsur kebaruan.</li>
+                    <li>Dilaksanakan melalui program yang terencana.</li>
+                    <li>Memiliki tujuan.</li>
+                </ol>
+                <h5>Jenis Inovasi menurut Kuratko (4 jenis):</h5>
+                <ol>
+                    <li><strong>Invensi:</strong> Penemuan baru.</li>
+                    <li><strong>Ekstensi:</strong> Pengembangan dari yang sudah ada sebelumnya.</li>
+                    <li><strong>Duplikasi:</strong> Penggandaan, memperbanyak produk yang sudah ada dan terkenal.</li>
+                    <li><strong>Sintesis:</strong> Penggabungan atau mengkombinasikan konsep dan formula yang sudah ada menjadi formula yang baru.</li>
+                </ol>
+
+                <h4>H. Sumber Peluang Usaha</h4>
+                <p>Peluang usaha bersumber atau diawali dengan adanya ide atau Inspirasi yang bersumber dari faktor internal dan eksternal.</p>
+                <h5>Faktor internal:</h5>
+                <ul>
+                    <li>Pengetahuan yang dimiliki.</li>
+                    <li>Pengalaman dari individu itu sendiri.</li>
+                    <li>Pengalaman dari orang lain.</li>
+                    <li>Intuisi/pemikiran yang muncul dari diri sendiri.</li>
+                </ul>
+                <h5>Faktor eksternal:</h5>
+                <ul>
+                    <li>Masalah yang dihadapi dan belum terpecahkan.</li>
+                    <li>Kesulitan yang dihadapi sehari-hari.</li>
+                    <li>Kebutuhan yang belum terpenuhi.</li>
+                    <li>Pemikiran yang besar untuk menciptakan sesuatu yang baru.</li>
+                </ul>
+                <h5>Cara Memanfaatkan Peluang menurut Dr. DJ. Schwartz:</h5>
+                <ol>
+                    <li>Percaya & yakin bahwa usaha bisa dilaksanakan.</li>
+                    <li>Jangan bergaul pada lingkungan statis yang akan melumpuhkan pikiran.</li>
+                    <li>Senantiasa bertanya pada diri sendiri, “bagaimana saya dapat melakukan usaha yang lebih baik”.</li>
+                    <li>Banyak bertanya & mendengarkan.</li>
+                    <li>Perluas pikiran.</li>
+                </ol>
+
+                <h4>I. Pendekatan Analisis Peluang Usaha</h4>
+                <ol>
+                    <li><strong>Analisis SWOT:</strong> Untuk mengetahui faktor internal (Strenght dan Weakness) dan eksternal (Opportunity dan Threats) perusahaan.
+                        <ul>
+                            <li><strong>Strenght:</strong> Kekuatan atau kelebihan.</li>
+                            <li><strong>Weakness:</strong> Kelemahan.</li>
+                            <li><strong>Opportunity:</strong> Peluang atau kesempatan.</li>
+                            <li><strong>Threat:</strong> Ancaman, gangguan, hambatan.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Analisis 5 W + 1 H:</strong>
+                        <ul>
+                            <li><strong>What:</strong> Produk apa?</li>
+                            <li><strong>Where:</strong> Dimana lokasi?</li>
+                            <li><strong>When:</strong> Kapan akan memulai?</li>
+                            <li><strong>Why:</strong> Mengapa memilih produk ini?</li>
+                            <li><strong>Who:</strong> Siapa orang yang akan terlibat di dalamnya?</li>
+                            <li><strong>How:</strong> Bagaimana menjalankan usaha ini?</li>
+                        </ul>
+                    </li>
+                    <li><strong>Studi Kelayakan Usaha:</strong> Penelitian terhadap rencana bisnis untuk menilai layak atau tidaknya bisnis dibangun dan dioperasionalkan.</li>
+                </ol>
+            </div>
+
+            <!-- BAB 3: Hak Atas Kekayaan Intelektual (HAKI) -->
+            <div class="module-content">
+                <h3>BAB 3: Hak Atas Kekayaan Intelektual (HAKI)</h3>
+                <h4>Tujuan Pembelajaran:</h4>
+                <ul>
+                    <li>Menjelaskan pengertian Hak Atas Kekayaan Intelektual.</li>
+                    <li>Mengidentifikasi prinsip-prinsip Hak Atas Kekayaan Intelektual.</li>
+                    <li>Mengidentifikasi dasar hukum Hak Atas Kekayaan Intelektual.</li>
+                    <li>Mengemukakan prinsip-prinsip Hak Atas Kekayaan Intelektual.</li>
+                    <li>Menunjukkan dasar hukum Hak Atas Kekayaan Intelektual.</li>
+                    <li>Mempresentasikan hak atas kekayaan intelektual.</li>
+                </ul>
+
+                <h4>A. Pendahuluan</h4>
+                <p>HAKI merupakan terjemahan dari Intellectual Property Right (IPR) adalah hak yang berasal dari hasil kegiatan intelektual manusia yang mempunyai manfaat ekonomi. Konsepsi mengenai HAKI didasarkan pada pemikiran bahwa karya intelektual yang telah dihasilkan manusia memerlukan pengorbanan tenaga, waktu dan biaya. Adanya pengorbanan ini menjadikan karya yang telah dihasilkan memiliki nilai ekonomi karena manfaat yang dapat dinikmatinya. Berdasarkan konsep ini maka mendorong kebutuhan adanya penghargaan atas hasil karya yang telah dihasilkan berupa perlindungan hukum bagi HAKI. Tujuan pemberian perlindungan hukum itu untuk mendorong dan menumbuhkembangkan semangat berkarya dan mencipta.</p>
+
+                <h4>B. Pengertian HAKI</h4>
+                <h5>Pengertian HAKI Menurut Para Pakar:</h5>
+                <ol>
+                    <li><strong>Ismail Saleh:</strong> Pengakuan dan penghargaan pada seseorang atau badan hukum atas penemuan atau penciptaan karya intelektual mereka dengan memberikan hak-hak khusus bagi mereka, baik yang bersifat sosial maupun ekonomis.</li>
+                    <li><strong>Bambang Kesowo:</strong> Hak atas kekayaan yang timbul atau lahir karena kemampuan intelektual manusia.</li>
+                    <li><strong>Adrian Sutedi:</strong> Hak atau wewenang atau kekuasaan untuk berbuat sesuatu atas kekayaan intelektual tersebut dan hak tersebut diatur oleh norma-norma atau hukum-hukum yang berlaku.</li>
+                </ol>
+
+                <h4>C. Tujuan dan Sifat HAKI</h4>
+                <h5>Tujuan dari penerapan HAKI:</h5>
+                <ol>
+                    <li>Mencegah adanya kemungkinan pelanggaran HAKI milik orang lain.</li>
+                    <li>Meningkatkan daya saing dan pangsa pasar.</li>
+                    <li>Bisa dijadikan sebagai bahan pertimbangan dalam menentukan strategi penelitian bisnis dan industri di Indonesia.</li>
+                </ol>
+                <h5>Sifat Hak atas kekayaan intelektual:</h5>
+                <ol>
+                    <li>Memiliki jangka waktu tertentu (terbatas).</li>
+                    <li>Bersifat eksklusif dan mutlak.</li>
+                </ol>
+
+                <h4>D. Prinsip-Prinsip HAKI</h4>
+                <ol>
+                    <li><strong>Prinsip ekonomi:</strong> Hak intelektual berasal dari kegiatan kreatif yang memberikan keuntungan kepada pemilik.</li>
+                    <li><strong>Prinsip keadilan:</strong> Karya intelektual mendapat perlindungan.</li>
+                    <li><strong>Prinsip kebudayaan:</strong> Perkembangan ilmu pengetahuan, sastra, dan seni untuk meningkatkan kehidupan manusia.</li>
+                    <li><strong>Prinsip sosial:</strong> Mengatur kepentingan manusia sebagai warga negara, perlindungan berdasarkan keseimbangan kepentingan individu dan masyarakat.</li>
+                </ol>
+
+                <h4>E. Klasifikasi Hak Kekayaan Intelektual (HAKI)</h4>
+                <p>Berdasarkan WIPO, HAKI dibagi menjadi dua bagian: hak cipta (copyright) dan hak kekayaan industri (industrial property right).</p>
+                <h5>1. Hak Cipta</h5>
+                <p>Hak cipta bukan merupakan hak monopoli untuk melakukan sesuatu, melainkan hak untuk mencegah orang lain yang melakukannya.</p>
+                <h6>Sifat Hak cipta:</h6>
+                <ul>
+                    <li>Dianggap sebagai benda bergerak dan tidak berwujud.</li>
+                    <li>Dapat dialihkan seluruhnya atau sebagian, harus tertulis.</li>
+                    <li>Tidak dapat disita, kecuali jika diperoleh secara melawan hukum.</li>
+                </ul>
+                <h6>Hak-hak yang tercakup dalam hak cipta:</h6>
+                <ul>
+                    <li><strong>Hak eksklusif:</strong> Hanya pemegang hak cipta yang bebas melaksanakan hak cipta tersebut.</li>
+                    <li><strong>Hak ekonomi:</strong> Hak untuk mendapatkan manfaat ekonomi atas ciptaan.</li>
+                    <li><strong>Hak moral:</strong> Hak yang melekat pada diri pencipta atau pelaku yang tidak dapat dihilangkan.</li>
+                </ul>
+                <h6>Hasil Ciptaan yang dilindungi Undang-undang hak cipta (UU hak cipta No. 19/2002):</h6>
+                <ul>
+                    <li>Buku, program komputer, pamflet, perwajahan (lay out) karya tulis dan semua hasil karya tulis lain.</li>
+                    <li>Ceramah, kuliah, pidato dan ciptaan lain yang sejenis.</li>
+                    <li>Alat peraga yang dibuat untuk kepentingan pendidikan & ilmu pengetahuan.</li>
+                    <li>Musik/lagu dengan atau tanpa teks.</li>
+                    <li>Drama atau drama musikal, tari, koreografi, pewayangan dan pentomim.</li>
+                    <li>Seni rupa dalam segala bentuk seperti seni lukis, gambar, seni ukir, seni kaligrafi, kolas, seni patung dan seni terapan.</li>
+                    <li>Arsitektur.</li>
+                    <li>Peta.</li>
+                    <li>Seni batik.</li>
+                    <li>Fotografi.</li>
+                    <li>Sinematografi.</li>
+                    <li>Terjemahan, bunga rampai, tafsir, saduran, database dan karya lain dari hasil pengalih wujudan.</li>
+                </ul>
+
+                <h5>2. Hak Kekayaan Industri (Industrial Property Right)</h5>
+                <p>Hak yang mengatur segala sesuatu tentang milik perindustrian, terutama yang mengatur perlindungan hukum.</p>
+                <h6>Meliputi:</h6>
+                <ol>
+                    <li><strong>Hak Paten:</strong> Hak eksklusif yang diberikan oleh Negara kepada Inventor atas hasil Invensinya di bidang teknologi.</li>
+                    <li><strong>Hak Merek:</strong> Tanda yang berupa gambar, nama, kata, huruf-huruf, angka-angka, susunan warna, atau kombinasi dari unsur-unsur tersebut yang memiliki daya pembeda.</li>
+                    <li><strong>Hak Varietas Tanaman (PVT):</strong> Hak kekayaan intelektual yang diberikan kepada pihak pemulia tanaman atau pemegang PVT untuk memegang kendali secara eksklusif terhadap bahan perbanyakan dan material yang dipanen dari suatu varietas tanaman baru.</li>
+                    <li><strong>Rahasia Dagang:</strong> Informasi yang tidak diketahui oleh umum di bidang teknologi dan/atau bisnis, mempunyai nilai ekonomi.</li>
+                    <li><strong>Desain Industri:</strong> Suatu kreasi tentang bentuk, konfigurasi, atau komposisi garis atau warna yang memberikan kesan estetis.</li>
+                    <li><strong>Desain Tata Letak Sirkuit Terpadu (DTLST):</strong> Kreasi berupa rancangan peletakan tiga dimensi dari berbagai elemen dalam suatu Sirkuit Terpadu.</li>
+                    <li><strong>Indikasi Geografi (Geographical Indication):</strong> Tanda yang menunjukkan asal muasal suatu barang, dilihat dari faktor geografis yang memberikan ciri kualitas tertentu.</li>
+                </ol>
+
+                <h4>F. Dasar Hukum Hak Kekayaan Intelektual di Indonesia</h4>
+                <ul>
+                    <li>Undang-undang Nomor 19 Tahun 2002 tentang Hak Cipta.</li>
+                    <li>Undang-undang Nomor 14 Tahun 2001 tentang Paten.</li>
+                    <li>Undang-undang Nomor 15 Tahun 2001 tentang Merek.</li>
+                    <li>Undang-undang Nomor 29 Tahun 2000 tentang Varietas Tanaman.</li>
+                    <li>Undang-undang Nomor 30 Tahun 2000 tentang Rahasia Dagang.</li>
+                    <li>Undang-undang Nomor 31 Tahun 2000 tentang Desain Industri.</li>
+                    <li>Undang-undang Nomor 32 Tahun 2000 tentang Desain Tata Letak Sirkuit Terpadu.</li>
+                </ul>
+
+                <h4>G. Syarat Karya Intelektual Yang Dapat Dipatenkan</h4>
+                <ol>
+                    <li><strong>Bersifat Baru:</strong> Belum pernah dipublikasikan.</li>
+                    <li><strong>Bersifat Inventif:</strong> Kemampuan untuk menciptakan, merancang sesuatu yang sebelumnya belum pernah ada.</li>
+                    <li><strong>Bersifat Aplikatif:</strong> Hasil penelitian dapat dilakukan secara berulang-ulang dan memiliki kemanfaatan bagi masyarakat.</li>
+                </ol>
+
+                <h4>H. Prosedur Mengajukan Permohonan HAKKI</h4>
+                <p>Syarat mengajukan permohonan hak paten HAKKI karya intelektual benar-benar terbarukan. Setelah penelusuran dan diyakini invensi mengandung kebaruan, langkah selanjutnya adalah membuat spesifikasi paten.</p>
+                <h5>Spesifikasi paten terdiri dari:</h5>
+                <ul>
+                    <li>Judul Invensi.</li>
+                    <li>Latar Belakang Invensi.</li>
+                    <li>Uraian Singkat Invensi.</li>
+                    <li>Uraian Lengkap Invensi.</li>
+                    <li>Gambar Teknik (jika diperlukan).</li>
+                    <li>Uraian Singkat Gambar.</li>
+                    <li>Abstrak.</li>
+                    <li>Klaim.</li>
+                </ul>
+                <h5>Persyaratan formalitas:</h5>
+                <ul>
+                    <li>Surat Pernyataan Hak.</li>
+                    <li>Surat Pengalihan Hak (jika Inventor dan Pemohon bukan orang yang sama).</li>
+                    <li>Surat Kuasa (jika diajukan melalui Kuasa).</li>
+                    <li>Fotokopi KTP/Identitas Pemohon (perorangan).</li>
+                    <li>Fotokopi Akta Pendirian Badan Hukum yang telah dilegalisir (Badan Hukum).</li>
+                    <li>Fotokopi NPWP Badan Hukum (Badan Hukum).</li>
+                    <li>Fotokopi KTP/Identitas orang yang bertindak atas nama Pemohon Badan Hukum.</li>
+                </ul>
+
+                <h4>I. Invensi Yang Tidak Dapat Dipatenkan</h4>
+                <ol>
+                    <li>Bertentangan dengan peraturan perundang-undangan, moralitas agama, ketertiban umum, atau kesusilaan.</li>
+                    <li>Berupa metode pemeriksaan, perawatan, pengobatan dan/atau pembedahan yang diterapkan terhadap manusia dan/atau hewan.</li>
+                    <li>Teori dan metode di bidang ilmu pengetahuan dan matematika.</li>
+                    <li>Semua makhluk hidup, kecuali jasad renik; serta proses biologis yang esensial untuk memproduksi tanaman atau hewan, kecuali proses non-biologis atau proses mikrobiologis.</li>
+                </ol>
+
+                <h4>J. Pemeliharaan Paten</h4>
+                <p>Pemegang Hak Paten berkewajiban membayar biaya tahunan pemeliharaan paten. Jika tidak dibayar selama tiga tahun berturut-turut, paten akan dianggap batal demi hukum.</p>
+            </div>
+
+            <!-- BAB 4: Desain Produk -->
+            <div class="module-content">
+                <h3>BAB 4: Desain Produk</h3>
+                <h4>Tujuan Pembelajaran:</h4>
+                <ul>
+                    <li>Menjelaskan konsep desain produk kreatif.</li>
+                    <li>Menganalisis alur dan proses kerja pembuatan prototype/model produk Kreatif.</li>
+                    <li>Menganalisis proses kerja prototype/model produk kreatif.</li>
+                    <li>Membuat desain (rancangan) produk kreatif.</li>
+                    <li>Membuat alur dan proses kerja pembuatan prototype/model produk kreatif.</li>
+                    <li>Membuat prototype/model produk kreatif.</li>
+                    <li>Membuat kemasan dan merek (brand) produk kreatif.</li>
+                </ul>
+
+                <h4>A. Pengertian Desain Produk</h4>
+                <p>Desain Produk merupakan terjemahan dari Industrial Design. Desain produk bisa disebut juga dengan desain kemasan yaitu sebuah ide, Pengembangan konsep, Pengujian, dan Pelaksanaan manufaktur atau jasa.</p>
+                <p>Desain Produk adalah sebagai alat manajemen untuk menterjemahkan hasil kegiatan penelitian dan pengembangan yang dilakukan sebelum menjadi rancangan yang nyata yang akan diproduksi dan dijual dengan menghasilkan laba.</p>
+                <p>Menurut W. J Stanton (1981), produk adalah seperangkat atribut baik berwujud maupun tidak berwujud, termasuk didalamnya masalah warna, Harga nama baik perusahaan, Nama baik toko yang menjual, dan pelayanan pabrik serta pelayanan pengencer yang diterima pembeli guna memuaskan keinginan.</p>
+                <h5>Bagian-bagian desain produk:</h5>
+                <ol>
+                    <li>Mendesain produk yang benar-benar baru.</li>
+                    <li>Mendesain atau memodifikasi produk yang sudah ada (redesign) atau melakukan pengembangan terhadap desain produk yang sudah ada.</li>
+                </ol>
+
+                <h4>B. Maksud dan Tujuan Desain Produk</h4>
+                <p>Desain produk mempunyai maksud dan tujuan untuk membantu perusahaan dalam menciptakan dan mengembangkan produk baru atau untuk menjamin hasil produksi yang sesuai dengan keinginan pelanggan.</p>
+                <h5>Manfaat dari desain produk:</h5>
+                <ol>
+                    <li>Menghindari kegagalan-kegagalan yang mungkin terjadi dalam pembuatan suatu produk.</li>
+                    <li>Memilih metode yang paling baik dan ekonomis dalam pembuatan produk.</li>
+                    <li>Menentukan standarisasi atau spesifikasi produk yang dibuat.</li>
+                    <li>Menghitung biaya dan menentukan harga produk yang dibuat.</li>
+                    <li>Mengetahui kelayakan produk tersebut apakah sudah memenuhi persyaratan atau masih perlu perbaikan kembali.</li>
+                </ol>
+                <h5>Tujuan desain produk:</h5>
+                <ol>
+                    <li>Sebagai identitas/merk dari suatu produk.</li>
+                    <li>Untuk menghasilkan produk yang berkualitas tinggi dan mempunyai nilai jual yang tinggi.</li>
+                    <li>Untuk menghasilkan produk yang trend pada masanya.</li>
+                    <li>Untuk membuat produk dengan biaya seminimal mungkin dalam penggunaan bahan baku dan biaya-biaya dengan tanpa mengurangi nilai jual produk tersebut.</li>
+                </ol>
+
+                <h4>C. Fungsi Desain Produk</h4>
+                <ul>
+                    <li>Identitas dari produk itu sendiri.</li>
+                    <li>Sebagai pelindung produk.</li>
+                    <li>Penambah nilai jual produk.</li>
+                </ul>
+
+                <h4>D. Kemasan Produk</h4>
+                <p>Kemasan merupakan desain kreatif yang mengaitkan bentuk, struktur, material, warna, citra, tipografi dan elemen-elemen desain dengan informasi produk agar produk dapat dipasarkan. Kemasan digunakan untuk membungkus, melindungi, mengirim, mengeluarkan, menyimpan, mengidentifikasi dan membedakan sebuah produk di pasar (Klimchuk dan Krasovec, 2006:33).</p>
+                <p>Kemasan yang dirancang dengan baik dapat membangun ekuitas merek dan mendorong penjualan. Pengemasan suatu produk biasanya dilakukan oleh produsen untuk dapat merebut minat konsumen terhadap pembelian barang.</p>
+
+                <h4>E. Fungsi Kemasan Produk</h4>
+                <p>Menurut Simamora (2007), pengemasan mempunyai dua fungsi:</p>
+                <ol>
+                    <li><strong>Fungsi Protektif:</strong> Berkenaan dengan proteksi produk, perbedaan iklim, prasarana transportasi, dan saluran distribusi.</li>
+                    <li><strong>Fungsi Promosional:</strong> Kemasan digunakan sebagai sarana promosional.</li>
+                </ol>
+                <h5>Fungsi lain kemasan:</h5>
+                <ol>
+                    <li>Pelindung produk.</li>
+                    <li>Memperkuat citra produk.</li>
+                    <li>Kombinasi dari keduanya, marketing dan Logistik.</li>
+                </ol>
+
+                <h4>F. Tujuan Kemasan Produk</h4>
+                <p>Menurut Louw dan Kimber (2007), tujuan dari kemasan dan pelabelan kemasan:</p>
+                <ol>
+                    <li><strong>Physical Production:</strong> Melindungi objek dari suhu, getaran, guncangan, tekanan dan sebagainya.</li>
+                    <li><strong>Barrier Protection:</strong> Melindungi dari hambatan oksigen uap air, debu, dan sebagainya.</li>
+                    <li><strong>Containment or Agglomeration:</strong> Mengelompokkan benda-benda kecil dalam satu paket.</li>
+                    <li><strong>Information Transmission:</strong> Informasi tentang cara menggunakan, transportasi, daur ulang, atau membuang paket produk.</li>
+                    <li><strong>Reducing Theft:</strong> Mencegah pencurian.</li>
+                    <li><strong>Convenience:</strong> Menambah kenyamanan dalam distribusi, penanganan, penjualan, dll.</li>
+                    <li><strong>Marketing:</strong> Mendorong calon pembeli untuk membeli produk.</li>
+                </ol>
+
+                <h4>G. Klasifikasi Kemasan</h4>
+                <ol>
+                    <li><strong>Berdasarkan frekuensi dari pemakaian:</strong>
+                        <ul>
+                            <li>Kemasan sekali pakai (disposable).</li>
+                            <li>Kemasan yang dapat dipakai berulangkali (multitrip).</li>
+                            <li>Kemasan atau wadah yang tidak dibuang atau dikembalikan oleh konsumen (semi disposable).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Berdasarkan struktur sistem kemas:</strong>
+                        <ul>
+                            <li>Kemasan primer.</li>
+                            <li>Kemasan sekunder.</li>
+                            <li>Kemasan tersier.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sifat Kekakuan Bahan Kemasan:</strong>
+                        <ul>
+                            <li>Kemasan fleksibel.</li>
+                            <li>Kemasan kaku.</li>
+                            <li>Kemasan semi kaku atau semi fleksibel.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Berdasarkan sifat perlindungan terhadap lingkungan:</strong>
+                        <ul>
+                            <li>Kemasan hermetis (tahan uap dan gas).</li>
+                            <li>Kemasan tahan cahaya.</li>
+                            <li>Kemasan tahan suhu tinggi.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Berdasarkan tingkat kesiapan pakai (Perakitan):</strong>
+                        <ul>
+                            <li>Wadah siap pakai.</li>
+                            <li>Wadah siap dirakit atau wadah lipatan.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h4>H. Jenis-Jenis Kemasan Produk</h4>
+                <ul>
+                    <li>Kemasan Kertas.</li>
+                    <li>Kemasan Gelas.</li>
+                    <li>Kemasan Logam (Kaleng).</li>
+                    <li>Kemasan Plastik.</li>
+                    <li>Komposit (Kertas/Plastik).</li>
+                    <li>Edible Packaging (kemasan yang bersifat ramah lingkungan karena dapat dimakan).</li>
+                    <li>Biodegradable Packaging (kemasan yang mampu didaur ulang secara alami oleh mikroba dalam tanah).</li>
+                </ul>
+
+                <h4>I. Syarat Kemasan Produk</h4>
+                <ol>
+                    <li>Tidak beracun.</li>
+                    <li>Harus cocok dengan bahan yang dikemas.</li>
+                    <li>Sanitasi dan syarat-syarat kesehatan terjamin.</li>
+                    <li>Dapat mencegah pemalsuan.</li>
+                    <li>Kemudahan membuka dan menutup.</li>
+                    <li>Kemudahan dan keamanan dalam mengeluarkan isi produk.</li>
+                    <li>Kemudahan pembuangan kemasan bekas.</li>
+                    <li>Ukuran, bentuk dan berat.</li>
+                    <li>Penampilan dan pencetakan.</li>
+                    <li>Syarat khusus (misalnya iklim daerah pemasaran).</li>
+                </ol>
+
+                <h4>J. Merancang Kemasan Produk</h4>
+                <h5>Beberapa hal yang perlu diperhatikan dalam merancang kemasan:</h5>
+                <ul>
+                    <li>Label harus mudah dimengerti.</li>
+                    <li>Terdapat informasi yang relevan.</li>
+                </ul>
+                <h5>Hal yang wajib tercantum dalam sebuah label produk:</h5>
+                <ol>
+                    <li>Nama produk.</li>
+                    <li>Stempel atau Merk Dagang (Trade mark).</li>
+                    <li>Komposisi bahan baku yang digunakan.</li>
+                    <li>Netto atau Volume bersih.</li>
+                    <li>Nama produsen.</li>
+                    <li>Nama distributor.</li>
+                    <li>Nomor registrasi atau ijin dari Dinas Kesehatan.</li>
+                    <li>Logo halal.</li>
+                    <li>Kode produksi.</li>
+                    <li>Waktu kadaluarsa (Best before date / Use by date).</li>
+                </ol>
+
+                <h4>K. Standar Desain Kemasan Produk</h4>
+                <p>Standar Nasional Indonesia (SNI) adalah satu-satunya standar yang berlaku secara nasional di Indonesia. SNI dirumuskan oleh Panitia Teknis dan ditetapkan oleh Badan Standardisasi Nasional (BSN). SNI bersifat sukarela untuk dipakai dan ditetapkan oleh pelaku usaha.</p>
+
+                <h4>L. Model Kemasan Produk Kreatif</h4>
+                <p>Model kemasan produk kreatif haruslah mendukung pemasaran sehingga calon konsumen mudah mengingat dengan produk dijual.</p>
+                <h5>Enam faktor yang berpengaruh dalam menentukan kemasan produk (menurut Kotler, 2003):</h5>
+                <ol>
+                    <li>Warna (colour).</li>
+                    <li>Bahan (material).</li>
+                    <li>Bentuk (form).</li>
+                    <li>Ukuran (size).</li>
+                    <li>Logo (brand).</li>
+                    <li>Topografi (text).</li>
+                </ol>
+            </div>
+
+            <!-- BAB 5: Proses Kerja Pembuatan Prototype Produk -->
+            <div class="module-content">
+                <h3>BAB 5: Proses Kerja Pembuatan Prototype Produk</h3>
+                <h4>Tujuan Pembelajaran:</h4>
+                <ul>
+                    <li>Menentukan proses kerja pembuatan prototype produk barang/jasa.</li>
+                    <li>Memproses kerja pembuatan prototype produk barang/jasa.</li>
+                    <li>Melaksanakan pembuatan alur proses kerja pembuatan prototype produk barang/jasa.</li>
+                    <li>Mengontrol hasil pembuatan alur proses kerja pembuatan prototype produk barang/jasa.</li>
+                </ul>
+
+                <h4>A. Prototype</h4>
+                <p>Prototipe merupakan penafsiran produk yang dapat diklasifikasikan melalui dua dimensi yaitu dimensi yang pertama adalah tingkat dimana sebuah prototipe merupakan bentuk fisik. Dimensi kedua adalah tingkatan dimana sebuah prototipe merupakan prototipe yang menyeluruh. Prototipe menyeluruh mengimplementasikan sebagian besar atau semua atribut dari produk. Prototipe menyeluruh merupakan prototipe yang diberikan kepada pelanggan untuk mengidentifikasi kekurangan dari desain sebelum memutuskan diproduksi.</p>
+
+                <h4>B. Tahapan – Tahapan Pembuatan Prototype Produk</h4>
+                <ol>
+                    <li><strong>Pendefinisian produk:</strong> Penerjemahan konsep teknikal yang berhubungan dengan kebutuhan dan perilaku konsumen ke dalam bentuk perancangan.</li>
+                    <li><strong>Working model:</strong> Tidak harus mempresentasikan fungsi produk secara keseluruhan dan dibuat pada skala yang seperlunya.</li>
+                    <li><strong>Prototipe rekayasa (engineering prototype):</strong> Dibuat untuk keperluan pengujian kinerja operasional dan kebutuhan rancangan sistem produksi.</li>
+                    <li><strong>Prototipe produksi (production prototype):</strong> Bentuknya dirancang dengan seluruh fungsi operasional untuk menentukan kebutuhan dan metode produksi.</li>
+                    <li><strong>Qualified production item:</strong> Dibuat dalam skala penuh, berfungsi secara penuh dan diproduksi pada tahap awal dalam jumlah kecil untuk memastikan produk memenuhi standar.</li>
+                    <li><strong>Model:</strong> Alat peraga yang mirip produk yang akan dibangun (look-like-models).</li>
+                </ol>
+
+                <h4>C. Kegunaan Prototype</h4>
+                <p>Dalam proyek pengembangan produk, prototipe digunakan untuk empat tujuan:</p>
+                <ol>
+                    <li><strong>Pembelajaran:</strong> Untuk menjawab pertanyaan "akankah dapat bekerja?" dan "sejauh mana dapat memenuhi kebutuhan pelanggan?".</li>
+                    <li><strong>Komunikasi:</strong> Memperkaya komunikasi dengan manajemen puncak, penjual, mitra, dll.</li>
+                    <li><strong>Penggabungan:</strong> Memastikan bahwa komponen dari produk bekerja bersamaan seperti yang diharapkan.</li>
+                    <li><strong>Milestones:</strong> Mendemonstrasikan bahwa produk telah mencapai tingkat kegunaan yang diinginkan.</li>
+                </ol>
+
+                <h4>D. Produk Barang dan Jasa</h4>
+                <p>Pengertian produk menurut Alma (2004:139) adalah seperangkat atribut baik berwujud maupun tidak berwujud, termasuk didalamnya warna, harga, nama baik pabrik, nama baik toko yang menjual (pengecer), dan pelayanan pabrik serta pelayanan pengecer, yang diterima oleh pembeli guna memuaskan keinginannya.</p>
+                <p>Menurut Kotler dan Armstrong dalam Ginting (2011:90), pengertian produk adalah segala sesuatu yang dapat ditawarkan ke pasar untuk perhatian, penggunaan dan konsumsi yang dapat memuaskan keinginan atau kebutuhan.</p>
+                <h5>Tingkatan produk (menurut Alma, 2004:141):</h5>
+                <ol>
+                    <li><strong>Produk utama atau inti (core benefit):</strong> Manfaat sebenarnya yang dibutuhkan dan akan dikonsumsi oleh pelanggan.</li>
+                    <li><strong>Produk generik (generic product):</strong> Produk dasar yang mampu memenuhi fungsi produk yang paling dasar.</li>
+                    <li><strong>Produk harapan (expected product):</strong> Produk formal yang ditawarkan pada konsumen dengan berbagai atribut dan kondisinya layak diharapkan.</li>
+                    <li><strong>Produk pelengkap (augmented product):</strong> Berbagai atribut produk yang mendapat tambahan pelengkap meliputi berbagai manfaat dan layanan.</li>
+                    <li><strong>Produk potensial (potential product):</strong> Segala macam tambahan dan perubahan yang mungkin dikembangkan untuk suatu produk di masa mendatang.</li>
+                </ol>
+
+                <h4>E. Kelebihan dan Kekurangan Produk dan Jasa</h4>
+                <h5>Kelebihan dari produk (barang):</h5>
+                <ul>
+                    <li>Menghasilkan produk dalam bentuk fisik.</li>
+                    <li>Memiliki alur proses produksi yang jelas.</li>
+                </ul>
+                <h5>Kekurangan dari produk (barang):</h5>
+                <ul>
+                    <li>Membutuhkan tempat untuk memajang hasil produk.</li>
+                    <li>Membutuhkan tempat untuk penyimpanan barang berupa gudang.</li>
+                    <li>Membutuhkan banyak karyawan sehingga menambah beban pengeluaran untuk komponen gaji.</li>
+                </ul>
+                <h5>Kelebihan dari jasa:</h5>
+                <ul>
+                    <li>Tidak membutuhkan tempat untuk memajang hasil produk.</li>
+                    <li>Tidak membutuhkan tempat untuk penyimpanan barang berupa gudang.</li>
+                    <li>Tidak membutuhkan banyak karyawan sehingga menghemat pengeluaran untuk komponen gaji.</li>
+                </ul>
+                <h5>Kekurangan dari jasa:</h5>
+                <ul>
+                    <li>Tidak menyediakan produk dalam bentuk fisik.</li>
+                    <li>Jasa yang ditawarkan bisa berbeda-beda antar konsumen.</li>
+                    <li>Membutuhkan promosi berupa testimoni konsumen sebanyak-banyaknya.</li>
+                </ul>
+
+                <h4>F. Pemetaan Keberagaman Produk dan Jasa</h4>
+                <h5>Peluang pasar dapat dilihat dengan cara mengamati konsumen, fokus pengamatannya meliputi:</h5>
+                <ul>
+                    <li>Barang dan jasa apa yang paling dibutuhkan konsumen?</li>
+                    <li>Berapa banyak yang mereka butuhkan?</li>
+                    <li>Kualitas yang mana yang paling tepat?</li>
+                    <li>Berapa banyaknya?</li>
+                </ul>
+                <h5>Cara merekayasa produk barang dan jasa agar diminati oleh konsumen:</h5>
+                <ul>
+                    <li>Jenis-jenisnya diperbarui.</li>
+                    <li>Kualitasnya dibeda-bedakan dan ditingkatkan.</li>
+                    <li>Model dan desainnya bermacam-macam dan dibedakan.</li>
+                    <li>Kemasan, warna, bentuk, ukuran, standar, merek dibuat sedemikian rupa sehingga lebih menarik.</li>
+                </ul>
+                <h5>Tiga fungsi penting bagi proyek pengembangan produk:</h5>
+                <ol>
+                    <li><strong>Pemasaran:</strong> Menjembatani interaksi antara perusahaan dengan pelanggan.</li>
+                    <li><strong>Perancangan (Desain):</strong> Memegang peranan penting dalam mendefinisikan bentuk fisik produk.</li>
+                    <li><strong>Manufaktur:</strong> Bertanggung jawab untuk merancang dan mengoperasikan sistem produksi.</li>
+                </ol>
+                <h5>Proses pengembangan produk dalam suatu perusahaan umumnya melalui 6 tahapan proses:</h5>
+                <ol>
+                    <li><strong>Fase 0: Perencanaan Produk.</strong></li>
+                    <li><strong>Fase 1: Pengembangan Konsep.</strong></li>
+                    <li><strong>Fase 2: Perancangan Tingkat Sistem.</strong></li>
+                    <li><strong>Fase 3: Perancangan Detail.</strong></li>
+                    <li><strong>Fase 4: Pengujian dan Perbaikan.</strong></li>
+                    <li><strong>Fase 5: Produksi Awal.</strong></li>
+                </ol>
+                <h5>Faktor-Faktor Yang Mempengaruhi Desain Produk:</h5>
+                <ol>
+                    <li><strong>Fungsi Produk.</strong></li>
+                    <li><strong>Standar dan Spesifikasi Desain:</strong> Sambungan, Bagian, Bentuk, Ukuran, Mutu, Bahan, Warna.</li>
+                    <li><strong>Tanggungjawab Produk.</strong></li>
+                    <li><strong>Harga dan Volume.</strong></li>
+                    <li><strong>Prototype.</strong></li>
+                </ol>
+
+                <h4>G. Proses Kerja Pembuatan Prototype</h4>
+                <p>Rancangan proses harus didefinisikan terlebih dahulu dengan cermat karena rancangan proses ini memiliki dampak berjangka panjang terhadap kinerja proses. Desain produk menetapkan jenis bahan, standar, batas toleransi, dimensi, penampilan, dan standar kinerja produk. Desain jasa menetapkan bentuk penampilan fisik, gaya, manfaat kenikmatan, dan manfaat psikologis.</p>
+                <h5>Agar suatu proses desain efektif, dapat dilakukan hal-hal sebagai berikut:</h5>
+                <ol>
+                    <li>Selaraskan karakteristik produk atau jasa dengan persyaratan kebutuhan pelanggan.</li>
+                    <li>Penuhi persyaratan kebutuhan pelanggan secara paling sederhana dan murah.</li>
+                    <li>Kurangi waktu yang diperlukan untuk mendesain suatu produk atau jasa baru.</li>
+                    <li>Perkecil revisi yang diperlukan untuk membuat suatu desain yang dapat dikerjakan (Russel dan Tailor 2000).</li>
+                </ol>
+                <h5>Teknik manufaktur meliputi:</h5>
+                <ul>
+                    <li>Desain produk (perancangan produk).</li>
+                    <li>Desain proses produksi (perancangan proses produksi).</li>
+                    <li>Manajemen produksi pengelolaan sistem manufaktur (Laksana, 2016).</li>
+                </ul>
+
+                <h4>H. Tahapan Kegiatan Desain Produk</h4>
+                <ol>
+                    <li><strong>Memformulasikan hasil marketing research:</strong> Titik tolak dalam tahapan kegiatan Desain Produk adalah riset pemasaran.</li>
+                    <li><strong>Mempertimbangkan kemampuan fasilitas perusahaan:</strong> Mempertimbangkan tenaga kerja, mesin, peralatan penunjang, dan biaya.</li>
+                    <li><strong>Membuat sketsa:</strong> Bentuk dari produk yang akan dibuat akan terlihat jelas.</li>
+                    <li><strong>Membuat gambar kerja:</strong> Tahap akhir dalam kegiatan Desain Produk, menggambarkan bentuk dan ukuran sebenarnya dengan skala diperkecil.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="modul-praktikum">
+            <h2>Modul Praktikum</h2>
+            
+            <!-- Praktikum BAB 1: Sikap dan Perilaku Wirausaha -->
+            <div class="interactive-box">
+                <h4>Praktikum BAB 1: Sikap dan Perilaku Wirausaha</h4>
+                <p><strong>Tugas Individu:</strong> Carilah pengusaha inspiratif di lingkungan sekitar. Tuliskan perilaku prestatif apa yang bisa kalian teladani?</p>
+                <p><strong>Tes Unjuk Kerja (Kelompok):</strong> Siswa dibagi dalam beberapa kelompok (4-5 siswa). Lakukan wawancara dengan seorang wirausaha di lingkungan sekitar. Kemudian presentasikan hasil wawancara di depan kelas. Beberapa poin yang dilakukan saat wawancara:</p>
+                <ul>
+                    <li>Latar belakang sebagai wirausaha.</li>
+                    <li>Jenis usaha dan produk.</li>
+                    <li>Pemasaran produk.</li>
+                    <li>Konsumen sasarannya.</li>
+                </ul>
+                <p>Siswa diminta menyimpulkan karakter wirausaha apa yang dimiliki dan bisa diteladani.</p>
+                <button class="task-button" onclick="showTaskDetails('task1')">Lihat Detail Tugas & Form Laporan</button>
+                <div id="task1" class="hidden interactive-content">
+                    <p><strong>Form Laporan Wawancara:</strong></p>
+                    <form>
+                        <label for="namaPengusaha">Nama Pengusaha:</label><br>
+                        <input type="text" id="namaPengusaha" name="namaPengusaha"><br><br>
+                        <label for="jenisUsaha">Jenis Usaha & Produk:</label><br>
+                        <textarea id="jenisUsaha" name="jenisUsaha" rows="4"></textarea><br><br>
+                        <label for="perilakuPrestatif">Perilaku Prestatif yang Diteladani:</label><br>
+                        <textarea id="perilakuPrestatif" name="perilakuPrestatif" rows="4"></textarea><br><br>
+                        <input type="submit" value="Kirim Laporan">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Praktikum BAB 2: Peluang Usaha -->
+            <div class="interactive-box">
+                <h4>Praktikum BAB 2: Peluang Usaha</h4>
+                <p><strong>Tugas Individu:</strong> Siswa diminta untuk menganalisis faktor-faktor yang menyebabkan kesuksesan dan kegagalan dalam berwirausaha.</p>
+                <p><strong>Tugas Kelompok:</strong> Lakukan pengamatan di lingkungan sekitar kalian. Cari satu pengusaha sukses dan pengusaha yang belum sukses. Analisa faktor-faktor penyebabnya kesuksesan dan kegagalan, identifikasi karakter yang mereka miliki. Presentasikan hasil pengamatan kalian di depan kelas.</p>
+                <p><strong>Job Sheet: Analisis Peluang Usaha dengan Metode SWOT</strong></p>
+                <p>Amati produk di sekitar kalian, buatlah draft analisis Peluang usaha dengan metode SWOT.</p>
+                <table border="1" style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>NAMA PRODUK</th>
+                            <th>STRENGTH</th>
+                            <th>WEAKNESS</th>
+                            <th>OPPORTUNITY</th>
+                            <th>THREAT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>2.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>3.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>4.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>5.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+                <button class="task-button" onclick="showTaskDetails('task2')">Mulai Analisis SWOT</button>
+                <div id="task2" class="hidden interactive-content">
+                    <p>Isi tabel SWOT di atas dengan produk pilihan Anda. Anda bisa mengunduh template tabel ini atau mengisi secara manual.</p>
+                    <button class="task-button">Unduh Template SWOT (PDF)</button>
+                </div>
+            </div>
+
+            <!-- Praktikum BAB 3: Hak Atas Kekayaan Intelektual (HAKI) -->
+            <div class="interactive-box">
+                <h4>Praktikum BAB 3: Hak Atas Kekayaan Intelektual (HAKI)</h4>
+                <p><strong>Tugas Individu:</strong> Amatilah lingkungan di sekitar kalian, carilah beberapa usaha kecil UKM yang sudah mendaftarkan produknya ke HAKKI.</p>
+                <p><strong>Tugas Kelompok:</strong> Kelas dibagi dalam beberapa kelompok. Masing-masing kelompok mencari sepuluh contoh produk disertai penjelasan yang sudah terdaftar HAKKI seperti hak cipta, merk atau paten dalam kategori makanan, minuman, olahraga, fashion, farmasi dan musik serta film yang ada di lingkunganmu. Presentasikan hasilnya di depan kelas.</p>
+                <p><strong>Job Sheet: Data Produk HAKI</strong></p>
+                <p>Buatlah tabel yang memuat data 10 produk yang sudah memiliki hak cipta atau hak paten dan yang belum memiliki.</p>
+                <table border="1" style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>NAMA PRODUK</th>
+                            <th>REGISTERED ®</th>
+                            <th>TRADE MARK (TM)</th>
+                            <th>TIDAK KEDUANYA</th>
+                            <th>ADA KEDUANYA</th>
+                            <th>KET.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>2.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+                        <tr><td>10.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+                <button class="task-button" onclick="showTaskDetails('task3')">Lihat Contoh & Panduan</button>
+                <div id="task3" class="hidden interactive-content">
+                    <p><strong>Panduan Pengisian Tabel:</strong></p>
+                    <ul>
+                        <li>Cari produk di sekitar Anda (makanan, minuman, pakaian, dll.).</li>
+                        <li>Periksa apakah ada simbol ® (Registered) atau ™ (Trademark) di dekat nama produk/logo.</li>
+                        <li>Isi kolom yang sesuai. Berikan keterangan tambahan jika perlu (misal: "Sedang dalam proses pendaftaran").</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Praktikum BAB 4: Desain Produk -->
+            <div class="interactive-box">
+                <h4>Praktikum BAB 4: Desain Produk</h4>
+                <p><strong>Tugas Individu:</strong></p>
+                <ol>
+                    <li>Buatlah desain kemasan sesuai jurusan kalian.</li>
+                    <li>Buatlah satu buah kemasan yang terbuat dari bahan bekas, serta sampaikan alasan dan fungsi memilih kemasan tersebut!</li>
+                </ol>
+                <p><strong>Tugas Kelompok:</strong> Carilah 10 buah contoh pengemasan untuk produk parts otomotif yang mewakili jenis benda padat dan cair. Kemudian presentasikan hasil diskusi kalian di depan kelas!</p>
+                <p><strong>Job Sheet: Desain Kemasan Produk</strong></p>
+                <table border="1" style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>NAMA PRODUK</th>
+                            <th>Cair</th>
+                            <th>Padat</th>
+                            <th>GAMBAR KEMASAN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>2.</td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>...</td><td>...</td><td>...</td><td>...</td><td></td></tr>
+                        <tr><td>10.</td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+                <button class="task-button" onclick="showTaskDetails('task4')">Unggah Desain Kemasan</button>
+                <div id="task4" class="hidden interactive-content">
+                    <p>Unggah gambar desain kemasan Anda di sini:</p>
+                    <input type="file" accept="image/*"><br><br>
+                    <button class="task-button">Unggah</button>
+                </div>
+            </div>
+
+            <!-- Praktikum BAB 5: Proses Kerja Pembuatan Prototype Produk -->
+            <div class="interactive-box">
+                <h4>Praktikum BAB 5: Proses Kerja Pembuatan Prototype Produk</h4>
+                <p><strong>Tugas Individu:</strong> Buat satu kemasan produk dan jelaskan bagaimana langkah-langkah pembuatannya.</p>
+                <p><strong>Tugas Kelompok:</strong></p>
+                <ol>
+                    <li>Lakukan wawancara terhadap tiga orang pengusaha di bidang produksi, amati dan catat langkah-langkah dalam pembuatan produk tersebut!</li>
+                    <li>Diskusikan dengan kelompokmu dan presentasikan di depan kelas.</li>
+                </ol>
+                <p><strong>Job Sheet: Proses Pembuatan Produk</strong></p>
+                <table border="1" style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>NAMA PRODUK</th>
+                            <th>ALAT YANG DIGUNAKAN</th>
+                            <th>BAHAN YANG DIBUTUHKAN</th>
+                            <th>CARA PEMBUATAN</th>
+                            <th>GAMBAR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>2.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td>3.</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+                <button class="task-button" onclick="showTaskDetails('task5')">Mulai Praktikum</button>
+                <div id="task5" class="hidden interactive-content">
+                    <p>Isi tabel di atas berdasarkan pengamatan Anda terhadap proses pembuatan produk. Anda juga bisa menyertakan gambar atau diagram alur proses.</p>
+                    <button class="task-button">Unggah Diagram Alur</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="evaluasi">
+            <h2>Evaluasi Akhir Semester</h2>
+            <div class="quiz-container">
+                <h4>Soal Pilihan Ganda</h4>
+                <form id="quizForm">
+                    <div class="quiz-question">1. Sikap wirausaha yang selalu ingin tahu, membuat wirausaha selalu . . .</div>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q1" value="a"> menyukai tantangan</label>
+                        <label><input type="radio" name="q1" value="b"> selalu waspada</label>
+                        <label><input type="radio" name="q1" value="c"> terbuka terhadap perubahan</label>
+                        <label><input type="radio" name="q1" value="d"> antusias dan pantang menyerah</label>
+                        <label><input type="radio" name="q1" value="e"> senang bertanya</label>
+                    </div>
+                    <div id="feedback1" class="quiz-feedback"></div>
+
+                    <div class="quiz-question">2. Ciri seorang wirausahawan tidak boleh berubah-ubah dalam memutuskan sesuatu, oleh karena itu harus memiliki sikap . . . .</div>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q2" value="a"> mandiri</label>
+                        <label><input type="radio" name="q2" value="b"> berani</label>
+                        <label><input type="radio" name="q2" value="c"> mercusuar</label>
+                        <label><input type="radio" name="q2" value="d"> Konsisten</label>
+                        <label><input type="radio" name="q2" value="e"> Pantang menyerah</label>
+                    </div>
+                    <div id="feedback2" class="quiz-feedback"></div>
+
+                    <!-- Tambahkan soal pilihan ganda lainnya di sini sesuai dengan daftar soal Anda -->
+                    <!-- Contoh soal 3 dari daftar Anda -->
+                    <div class="quiz-question">3. Berikut ini yang termasuk dalam manfaat menjadi wirausaha adalah . . . .</div>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q3" value="a"> Bisa menciptakan lapangan kerja baru</label>
+                        <label><input type="radio" name="q3" value="b"> Terikat waktu</label>
+                        <label><input type="radio" name="q3" value="c"> Kerja lebih santai</label>
+                        <label><input type="radio" name="q3" value="d"> Bisa kerja sesuka hati</label>
+                        <label><input type="radio" name="q3" value="e"> Tanggung jawab rendah</label>
+                    </div>
+                    <div id="feedback3" class="quiz-feedback"></div>
+
+                    <!-- Lanjutkan hingga soal 40 -->
+                    <!-- ... (soal 4-40) ... -->
+
+                    <button type="button" class="task-button" onclick="checkQuiz()">Periksa Jawaban</button>
+                </form>
+            </div>
+
+            <div class="quiz-container" style="margin-top: 30px;">
+                <h4>Soal Uraian</h4>
+                <form>
+                    <div class="quiz-question">1. Apa yang dimaksud dengan prinsip keadilan dalam HAKI?</div>
+                    <textarea rows="4" style="width:100%;"></textarea><br><br>
+
+                    <div class="quiz-question">2. Apa yang dimaksud dengan HAK PATEN?</div>
+                    <textarea rows="4" style="width:100%;"></textarea><br><br>
+
+                    <!-- Tambahkan soal uraian lainnya di sini sesuai dengan daftar soal Anda -->
+                    <!-- Lanjutkan hingga soal 10 -->
+                    <!-- ... (soal 3-10) ... -->
+
+                    <input type="submit" class="task-button" value="Kirim Jawaban Uraian">
+                </form>
+            </div>
+        </section>
+    </div>
+<img src="bann.png" width="1350" height="100">
+    <footer>
+		<p>&copy; 2023 Modul Produk Kreatif & Kewirausahaan SMK Kelas XI </p> <br>
+		<p>Referensi : TIM MGMP PKK SURABAYA (TIM PENYUSUN : Ellya Fauzia, S.Sos M.Pd , Yuyun Sulistyawati, S.E, Dennok Wahyusari, S.Pd ,Naimatul Khusnah, S.Pd </p>
+    </footer>
+
+    <script>
+        // JavaScript for interactive elements
+        function showTaskDetails(taskId) {
+            const taskContent = document.getElementById(taskId);
+            taskContent.classList.toggle('hidden');
+        }
+
+        function checkQuiz() {
+            const answers = {
+                q1: 'd', // antusias dan pantang menyerah
+                q2: 'd', // Konsisten
+                q3: 'a'  // Bisa menciptakan lapangan kerja baru
+                // Add correct answers for all 40 questions here
+            };
+
+            for (let i = 1; i <= 3; i++) { // Loop for first 3 questions as example
+                const questionName = 'q' + i;
+                const selectedOption = document.querySelector('input[name="' + questionName + '"]:checked');
+                const feedbackElement = document.getElementById('feedback' + i);
+
+                if (selectedOption) {
+                    if (selectedOption.value === answers[questionName]) {
+                        feedbackElement.textContent = 'Jawaban Benar!';
+                        feedbackElement.className = 'quiz-feedback correct';
+                    } else {
+                        feedbackElement.textContent = 'Jawaban Salah. Jawaban yang benar adalah ' + answers[questionName].toUpperCase() + '.';
+                        feedbackElement.className = 'quiz-feedback incorrect';
+                    }
+                } else {
+                    feedbackElement.textContent = 'Anda belum memilih jawaban.';
+                    feedbackElement.className = 'quiz-feedback incorrect';
+                }
+            }
+            // You would extend this loop for all 40 questions
+        }
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector('nav ul li a.active').classList.remove('active');
+                this.classList.add('active');
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
